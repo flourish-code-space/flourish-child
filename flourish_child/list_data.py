@@ -272,6 +272,7 @@ list_data = {
         ('refer_c_pedi_support', 'Pediatrician support'),
         ('refer_c_sch_support', 'Schooling support'),
         ('refer_c_eye_care', 'Ophthalmology/Eye care support'),
+        ('refer_c_substance_abuse', 'Substance abuse counselling'),
         ('refer_c_other', 'Other, specify')
     ],
     'flourish_child.childtbtests': [
@@ -281,11 +282,12 @@ list_data = {
         ('urine_test', 'Urine test (LAM)'),
         ('skin_test', 'Skin test (TST/Mantoux)'),
         ('blood_test', 'Blood test (quantiferon)'),
+        (NONE, 'None'),
         (OTHER, 'other')
     ],
     'flourish_child.childhivtestvisits': [
         ('birth', 'Birth '),
-        ('6_to_8_weeks ', '6 to 8 weeks'),
+        ('6_to_8_weeks', '6 to 8 weeks'),
         ('9_months', '9-months'),
         ('18_months', '18-months'),
         ('after_breastfeeding', '6 weeks after cessation of breastfeeding'),

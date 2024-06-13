@@ -1354,7 +1354,8 @@ TB_TEST_CHOICES = (
     ('urine_test', 'Urine test (LAM)'),
     ('skin_test', 'Skin test (TST/Mantoux)'),
     ('blood_test', 'Blood test (quantiferon)'),
-    (OTHER, 'other')
+    (OTHER, 'Other'),
+    ('None', 'None')
 )
 
 TEST_RESULTS_CHOICES = (
@@ -1366,7 +1367,7 @@ TEST_RESULTS_CHOICES = (
 
 DURATION_OPTIONS = (
     ('< 2 weeks', '< 2 weeks'),
-    ('≥ 2 weeks', '≥ 2 weeks')
+    ('>= 2 weeks', '≥ 2 weeks')
 )
 
 TB_TREATMENT_CHOICES = (
@@ -1402,7 +1403,6 @@ HAPPENED_APP = (
     ('ever_happened', 'Ever Happened'),
     (NOT_APPLICABLE, 'Not Applicable')
 )
-
 
 PERIOD_HAPPENED_DONT_KNOW = (
     ('past_6_months', 'Past 6 months'),
@@ -1455,3 +1455,31 @@ BUILT_DATES = (
     ('2011-2019', '2011-2019'),
     ('after_2019', 'After 2019'),
     ('i_dont_know', 'I don’t know'))
+
+CAREGIVER_EDUCATION_LEVEL_CHOICES = (
+    ('no_prim_male_caregiver', 'No primary male caregiver'),
+    ('not_educated', 'Not educated'),
+    ('primary', 'Primary'),
+    ('secondary', 'Secondary'),
+    ('tertiary', 'Tertiary')
+)
+
+HOUSE_YEAR_BUILT_CHOICES = (
+    ('before_1980', 'Before 1980'),
+    ('1980-1990', '1980-1990'),
+    ("1991-2000", '1991-2000'),
+    ("2001-2010", '2001-2010'),
+    ("2011-2019", '2011-2019'),
+    ("2019_above", '2019 and above'),
+    (DONT_KNOW, 'I don’t know'),
+)
+
+BUSINESSES_RUN = (
+    ('seamstress', 'Seamstress'),
+    ('welding', 'Welding'),
+    ('vehicle_repair', 'Vehicle repair'),
+    ('furniture_construction', 'Furniture construction/repair'),
+    ('selling', 'Selling'),
+    ('painting', 'Painting'),
+    (OTHER, 'Other'),
+)
