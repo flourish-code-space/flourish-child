@@ -199,7 +199,11 @@ list_data = {
         ('boitshepo', 'Boitshepo'),
         ('gaontebale', 'Gaontebale'),
         ('olebogeng', 'Olebogeng'),
-        ('pearl', 'Pearl')
+        ('pearl', 'Pearl'),
+        ('kago','Kago'),
+        ('fanta','Fanta'),
+        ('lebogang','Lebogang'),
+
     ],
     'flourish_child.tbdiagnostics': [
         ('sputum', 'Sputum sample'),
@@ -282,12 +286,12 @@ list_data = {
         ('urine_test', 'Urine test (LAM)'),
         ('skin_test', 'Skin test (TST/Mantoux)'),
         ('blood_test', 'Blood test (quantiferon)'),
-        (NONE, 'None'),
+        ('None', 'None'),
         (OTHER, 'other')
     ],
     'flourish_child.childhivtestvisits': [
         ('birth', 'Birth '),
-        ('6_to_8_weeks', '6 to 8 weeks'),
+        ('6_to_8_weeks ', '6 to 8 weeks'),
         ('9_months', '9-months'),
         ('18_months', '18-months'),
         ('after_breastfeeding', '6 weeks after cessation of breastfeeding'),

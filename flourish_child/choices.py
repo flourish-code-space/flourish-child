@@ -1354,8 +1354,7 @@ TB_TEST_CHOICES = (
     ('urine_test', 'Urine test (LAM)'),
     ('skin_test', 'Skin test (TST/Mantoux)'),
     ('blood_test', 'Blood test (quantiferon)'),
-    (OTHER, 'Other'),
-    ('None', 'None')
+    (OTHER, 'other')
 )
 
 TEST_RESULTS_CHOICES = (
@@ -1403,6 +1402,7 @@ HAPPENED_APP = (
     ('ever_happened', 'Ever Happened'),
     (NOT_APPLICABLE, 'Not Applicable')
 )
+
 
 PERIOD_HAPPENED_DONT_KNOW = (
     ('past_6_months', 'Past 6 months'),
@@ -1454,7 +1454,8 @@ BUILT_DATES = (
     ('2001-2010', '2001-2010'),
     ('2011-2019', '2011-2019'),
     ('after_2019', 'After 2019'),
-    ('i_dont_know', 'I don’t know'))
+    ('i_dont_know', 'I don’t know'),
+)
 
 CAREGIVER_EDUCATION_LEVEL_CHOICES = (
     ('no_prim_male_caregiver', 'No primary male caregiver'),
